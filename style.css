@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "popins" , sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: grey;
+}
+
+
+nav{
+    height: 80px;
+    background: black;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px 0px 100px;
+    overflow: hidden;
+    
+}
+
+@media screen and (max-width: 500px) {
+    ul.width li:not(:nth-child(0)) {
+      display: none;
+    }
+  }
+
+nav .logo{
+    font: 33px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    /*background-color: white;*/
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a{
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+
+}
+
+nav ul li a:hover{
+    color:#1b1b1b;
+    background-color: azure;
+
+ }
+
+ h1{
+    margin-left: 500px;
+    margin-top: 100px;
+ }
+
+.work{
+    
+    color: black;
+    padding: 50px;
+    margin-left: 450px;
+    font-size: 20px;
+ }  
+    
+
+
+/* .p{
+    margin-left:450;
+    font-size:18px;
+    color:black;
+    padding:20px;
+
+} */
+
+img{
+    margin-top: -200px;
+    margin-left: 50px;
+    border-radius: 30%;
+    margin-bottom: -80px;
+}
+
+.button{
+    margin-left: 500px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    background: black;
+    color: white;
+    padding: 8px;
+
+}
+
+.scroll{
+    margin-bottom: 10vh;
+    color:white;
+    background-color: black;
+    border: none;
+    padding:3px;
+}
+
+
+.footer{
+    align-items: center;
+    text-align: center;
+    font-weight: 100;
+    
+}
+   
